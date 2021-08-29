@@ -62,71 +62,79 @@ const Sidebar = () => {
                             alt='friend'
                             src='/assets/person/2.jpeg'
                         />
-                        <span className='sidebarFriendName'>Jane Doe</span>
+                        <span className='sidebarFriendName'>Fat Tony</span>
                     </li>
                     <li className='sidebarFriend'>
                         <img
                             className='sidebarFriendImg'
                             alt='friend'
-                            src='/assets/person/2.jpeg'
+                            src='/assets/person/3.jpeg'
                         />
-                        <span className='sidebarFriendName'>Jane Doe</span>
+                        <span className='sidebarFriendName'>
+                            Edna Krabappel
+                        </span>
                     </li>
                     <li className='sidebarFriend'>
                         <img
                             className='sidebarFriendImg'
                             alt='friend'
-                            src='/assets/person/2.jpeg'
+                            src='/assets/person/4.jpeg'
                         />
-                        <span className='sidebarFriendName'>Jane Doe</span>
+                        <span className='sidebarFriendName'>Marge Simpson</span>
                     </li>
                     <li className='sidebarFriend'>
                         <img
                             className='sidebarFriendImg'
                             alt='friend'
-                            src='/assets/person/2.jpeg'
+                            src='/assets/person/5.jpeg'
                         />
-                        <span className='sidebarFriendName'>Jane Doe</span>
+                        <span className='sidebarFriendName'>Sideshow Bob</span>
                     </li>
                     <li className='sidebarFriend'>
                         <img
                             className='sidebarFriendImg'
                             alt='friend'
-                            src='/assets/person/2.jpeg'
+                            src='/assets/person/6.jpeg'
                         />
-                        <span className='sidebarFriendName'>Jane Doe</span>
+                        <span className='sidebarFriendName'>
+                            Krusty the Clown
+                        </span>
                     </li>
                     <li className='sidebarFriend'>
                         <img
                             className='sidebarFriendImg'
                             alt='friend'
-                            src='/assets/person/2.jpeg'
+                            src='/assets/person/7.jpeg'
                         />
-                        <span className='sidebarFriendName'>Jane Doe</span>
+                        <span className='sidebarFriendName'>
+                            Waylon Smithers
+                        </span>
                     </li>
                     <li className='sidebarFriend'>
                         <img
                             className='sidebarFriendImg'
                             alt='friend'
-                            src='/assets/person/2.jpeg'
+                            src='/assets/person/8.jpeg'
                         />
-                        <span className='sidebarFriendName'>Jane Doe</span>
+                        <span className='sidebarFriendName'>
+                            Principal Skinner
+                        </span>
                     </li>
                     <li className='sidebarFriend'>
                         <img
                             className='sidebarFriendImg'
                             alt='friend'
-                            src='/assets/person/2.jpeg'
+                            src='/assets/person/9.jpeg'
                         />
-                        <span className='sidebarFriendName'>Jane Doe</span>
+                        <span className='sidebarFriendName'>Moe Szyslak</span>
                     </li>
                     <li className='sidebarFriend'>
                         <img
                             className='sidebarFriendImg'
                             alt='friend'
-                            src='/assets/person/2.jpeg'
+                            src='/assets/person/10.jpeg'
                         />
-                        <span className='sidebarFriendName'>Jane Doe</span>
+                        <span className='sidebarFriendName'>Ned Flanders</span>
                     </li>
                 </ul>
             </div>

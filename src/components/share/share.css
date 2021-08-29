@@ -7,7 +7,7 @@
 }
 
 .shareWrapper {
-    padding: 10px;
+    padding: 20px;
 }
 
 .shareTop {
@@ -33,7 +33,7 @@
 }
 
 .shareHr {
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .shareBottom {
@@ -66,10 +66,15 @@
 
 .shareButton {
     border: none;
-    padding: 7px;
+    padding: 7px 20px;
     border-radius: 5px;
     background-color: green;
     color: #fff;
     margin-right: 20px;
     cursor: pointer;
+    transition: background-color .2s ease;
+}
+
+.shareButton:hover {
+    background-color: rgb(102, 199, 102);
 }

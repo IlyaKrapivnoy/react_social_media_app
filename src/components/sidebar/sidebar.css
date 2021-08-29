@@ -1,5 +1,5 @@
 .sidebar {
-    flex: 3;
+    flex: 2;
     height: calc(100vh - 50px);
     overflow-y: scroll;
 }
@@ -31,6 +31,11 @@
     display: 'flex';
     align-items: center;
     padding: 10px 0;
+    cursor: pointer;
+}
+
+.sidebarListItem:hover {
+    color: gray;
 }
 
 .sidebarIcon {
@@ -41,9 +46,16 @@
     width: 150px;
     border: none;
     padding: 10px;
-    margin: 20px 0 10px;
+    margin: 40px 0 10px;
     border-radius: 5px;
     font-weight: 500;
+    cursor: pointer;
+    transition: .2s all ease-in;
+}
+
+.sidebarBtn:hover {
+    background-color: rgb(128, 128, 128);
+    color: #fff;
 }
 
 .sidebarHr {
@@ -60,6 +72,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .sidebarFriendImg {

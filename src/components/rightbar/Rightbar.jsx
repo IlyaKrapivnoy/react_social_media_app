@@ -27,9 +27,7 @@ const Rightbar = () => {
                             />
                             <span className='rightbarOnline'></span>
                         </div>
-                        <span className='rightbarUsername'>
-                            Milhouse Van Houten
-                        </span>
+                        <span className='rightbarUsername'>Allison Taylor</span>
                     </li>
                     <li className='rightbarFriend'>
                         <div className='rightbarProfileImgContainer'>
@@ -41,7 +39,7 @@ const Rightbar = () => {
                             <span className='rightbarOnline'></span>
                         </div>
                         <span className='rightbarUsername'>
-                            Milhouse Van Houten
+                            Groundskeeper Willie
                         </span>
                     </li>
                     <li className='rightbarFriend'>
@@ -53,9 +51,7 @@ const Rightbar = () => {
                             />
                             <span className='rightbarOnline'></span>
                         </div>
-                        <span className='rightbarUsername'>
-                            Milhouse Van Houten
-                        </span>
+                        <span className='rightbarUsername'>Miss Hoover</span>
                     </li>
                     <li className='rightbarFriend'>
                         <div className='rightbarProfileImgContainer'>
@@ -66,9 +62,7 @@ const Rightbar = () => {
                             />
                             <span className='rightbarOnline'></span>
                         </div>
-                        <span className='rightbarUsername'>
-                            Milhouse Van Houten
-                        </span>
+                        <span className='rightbarUsername'>Grampa Simpson</span>
                     </li>
                     <li className='rightbarFriend'>
                         <div className='rightbarProfileImgContainer'>
@@ -79,9 +73,7 @@ const Rightbar = () => {
                             />
                             <span className='rightbarOnline'></span>
                         </div>
-                        <span className='rightbarUsername'>
-                            Milhouse Van Houten
-                        </span>
+                        <span className='rightbarUsername'>Chief Wiggum</span>
                     </li>
                     <li className='rightbarFriend'>
                         <div className='rightbarProfileImgContainer'>
@@ -92,9 +84,7 @@ const Rightbar = () => {
                             />
                             <span className='rightbarOnline'></span>
                         </div>
-                        <span className='rightbarUsername'>
-                            Milhouse Van Houten
-                        </span>
+                        <span className='rightbarUsername'>Dr. Hibbert</span>
                     </li>
                     <li className='rightbarFriend'>
                         <div className='rightbarProfileImgContainer'>
@@ -105,9 +95,7 @@ const Rightbar = () => {
                             />
                             <span className='rightbarOnline'></span>
                         </div>
-                        <span className='rightbarUsername'>
-                            Milhouse Van Houten
-                        </span>
+                        <span className='rightbarUsername'>Lenny Leonard</span>
                     </li>
                     <li className='rightbarFriend'>
                         <div className='rightbarProfileImgContainer'>
@@ -131,9 +119,7 @@ const Rightbar = () => {
                             />
                             <span className='rightbarOnline'></span>
                         </div>
-                        <span className='rightbarUsername'>
-                            Milhouse Van Houten
-                        </span>
+                        <span className='rightbarUsername'>Selma Bouvier</span>
                     </li>
                 </ul>
             </div>

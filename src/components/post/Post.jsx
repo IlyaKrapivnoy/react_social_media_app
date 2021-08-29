@@ -16,7 +16,7 @@ const post = () => {
                         <span className='postDate'>5 mins ago</span>
                     </div>
                     <div className='postTopRight'>
-                        <MoreVert />
+                        <MoreVert className='postTopRightIcon' />
                     </div>
                 </div>
                 <div className='postCenter'>
