@@ -15,6 +15,7 @@ const Rightbar = () => {
                         birthday today.
                     </span>
                 </div>
+                <img className='rightbarAd' src='/assets/ad.png' alt='ad' />
             </div>
         </div>
     );
