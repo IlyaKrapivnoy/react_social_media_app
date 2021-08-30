@@ -10,6 +10,8 @@ import {
     Event,
     School,
 } from '@material-ui/icons';
+import CloseFriend from '../closeFriend/CloseFriend';
+import { Users } from '../../dummyData';
 
 const Sidebar = () => {
     return (
@@ -56,86 +58,9 @@ const Sidebar = () => {
                 <button className='sidebarBtn'>Show More</button>
                 <hr className='sidebarHr' />
                 <ul className='sidebarFriendList'>
-                    <li className='sidebarFriend'>
-                        <img
-                            className='sidebarFriendImg'
-                            alt='friend'
-                            src='/assets/person/2.jpeg'
-                        />
-                        <span className='sidebarFriendName'>Fat Tony</span>
-                    </li>
-                    <li className='sidebarFriend'>
-                        <img
-                            className='sidebarFriendImg'
-                            alt='friend'
-                            src='/assets/person/3.jpeg'
-                        />
-                        <span className='sidebarFriendName'>
-                            Edna Krabappel
-                        </span>
-                    </li>
-                    <li className='sidebarFriend'>
-                        <img
-                            className='sidebarFriendImg'
-                            alt='friend'
-                            src='/assets/person/4.jpeg'
-                        />
-                        <span className='sidebarFriendName'>Marge Simpson</span>
-                    </li>
-                    <li className='sidebarFriend'>
-                        <img
-                            className='sidebarFriendImg'
-                            alt='friend'
-                            src='/assets/person/5.jpeg'
-                        />
-                        <span className='sidebarFriendName'>Sideshow Bob</span>
-                    </li>
-                    <li className='sidebarFriend'>
-                        <img
-                            className='sidebarFriendImg'
-                            alt='friend'
-                            src='/assets/person/6.jpeg'
-                        />
-                        <span className='sidebarFriendName'>
-                            Krusty the Clown
-                        </span>
-                    </li>
-                    <li className='sidebarFriend'>
-                        <img
-                            className='sidebarFriendImg'
-                            alt='friend'
-                            src='/assets/person/7.jpeg'
-                        />
-                        <span className='sidebarFriendName'>
-                            Waylon Smithers
-                        </span>
-                    </li>
-                    <li className='sidebarFriend'>
-                        <img
-                            className='sidebarFriendImg'
-                            alt='friend'
-                            src='/assets/person/8.jpeg'
-                        />
-                        <span className='sidebarFriendName'>
-                            Principal Skinner
-                        </span>
-                    </li>
-                    <li className='sidebarFriend'>
-                        <img
-                            className='sidebarFriendImg'
-                            alt='friend'
-                            src='/assets/person/9.jpeg'
-                        />
-                        <span className='sidebarFriendName'>Moe Szyslak</span>
-                    </li>
-                    <li className='sidebarFriend'>
-                        <img
-                            className='sidebarFriendImg'
-                            alt='friend'
-                            src='/assets/person/10.jpeg'
-                        />
-                        <span className='sidebarFriendName'>Ned Flanders</span>
-                    </li>
+                    {Users.map((u) => (
+                        <CloseFriend user={u} key={u.id} />
+                    ))}
                 </ul>
             </div>
         </div>
