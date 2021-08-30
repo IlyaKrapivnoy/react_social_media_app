@@ -1,8 +1,8 @@
 import './post.css';
 import { MoreVert } from '@material-ui/icons';
+import { Users } from '../../dummyData';
 
 const post = ({ post }) => {
-    // console.log(post);
     return (
         <div className='post'>
             <div className='postWrapper'>
@@ -10,10 +10,18 @@ const post = ({ post }) => {
                     <div className='postTopLeft'>
                         <img
                             className='shareProfileImg'
-                            src='/assets/person/1.jpeg'
+                            src={
+                                Users.filter((u) => u.id === post.userId)[0]
+                                    .profilePicture
+                            }
                             alt='user'
                         />
-                        <span className='postUsername'>Lisa Simpson</span>
+                        <span className='postUsername'>
+                            {
+                                Users.filter((u) => u.id === post.userId)[0]
+                                    .userName
+                            }
+                        </span>
                         <span className='postDate'>{post.date}</span>
                     </div>
                     <div className='postTopRight'>
