@@ -1,7 +1,8 @@
 import './post.css';
 import { MoreVert } from '@material-ui/icons';
 
-const post = () => {
+const post = ({ post }) => {
+    // console.log(post);
     return (
         <div className='post'>
             <div className='postWrapper'>
@@ -13,19 +14,15 @@ const post = () => {
                             alt='user'
                         />
                         <span className='postUsername'>Lisa Simpson</span>
-                        <span className='postDate'>5 mins ago</span>
+                        <span className='postDate'>{post.date}</span>
                     </div>
                     <div className='postTopRight'>
                         <MoreVert className='postTopRightIcon' />
                     </div>
                 </div>
                 <div className='postCenter'>
-                    <span className='postText'>Hey this is my first post!</span>
-                    <img
-                        className='postImg'
-                        src='/assets/post/1.jpeg'
-                        alt='post'
-                    />
+                    <span className='postText'>{post?.descr}</span>
+                    <img className='postImg' src={post.photo} alt='post' />
                 </div>
                 <div className='postBottom'>
                     <div className='postBottomLeft'>
@@ -39,10 +36,14 @@ const post = () => {
                             src='/assets/heart.png'
                             alt='heart'
                         />
-                        <span className='likeCounter'>34 people liked it</span>
+                        <span className='likeCounter'>
+                            {post.like} people liked it
+                        </span>
                     </div>
                     <div className='postBottomRight'>
-                        <span className='postCommentText'>9 comments</span>
+                        <span className='postCommentText'>
+                            {post.comment} comments
+                        </span>
                     </div>
                 </div>
             </div>

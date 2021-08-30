@@ -55,7 +55,7 @@ export const Posts = [
     {
         id: 1,
         descr: 'Love for all, hatred for none',
-        photo: 'assets/post/1.jpeg',
+        photo: '/assets/post/1.jpeg',
         date: '5 mins ago',
         userId: 1,
         like: 32,
@@ -63,8 +63,8 @@ export const Posts = [
     },
     {
         id: 2,
-        descr: 'Love for all, hatred for none',
-        photo: 'assets/post/2.jpeg',
+        descr: 'love is undying,of that I feel certain.I mean deep,abiding,cherishing love.The love that gives protection even as you,my guardian angel,gave me protection long after you had gone-and continue to give this very day. A love beyond Death-a love that makes Life alive!',
+        photo: '/assets/post/2.jpeg',
         date: '15 mins ago',
         userId: 2,
         like: 30,
@@ -72,7 +72,7 @@ export const Posts = [
     },
     {
         id: 3,
-        descr: 'Love for all, hatred for none',
+        descr: 'The best way to predict the future is to invent it',
         photo: 'assets/post/3.jpeg',
         date: '25 mins ago',
         userId: 3,
@@ -81,7 +81,7 @@ export const Posts = [
     },
     {
         id: 4,
-        descr: 'Love for all, hatred for none',
+        descr: 'Sometimes I wonder, that one missing sock after doing laundry, is the smart one. After being unhappy for so long, it finally walks away from a frayed, worn-out relationship',
         photo: 'assets/post/4.jpeg',
         date: 'an hour ago',
         userId: 4,
@@ -90,7 +90,7 @@ export const Posts = [
     },
     {
         id: 5,
-        descr: 'Love for all, hatred for none',
+        descr: 'Every moment is a fresh beginning',
         photo: 'assets/post/5.jpeg',
         date: '2 hours ago',
         userId: 5,
@@ -99,7 +99,7 @@ export const Posts = [
     },
     {
         id: 6,
-        descr: 'Love for all, hatred for none',
+        descr: 'Never regret anything that made you smile',
         photo: 'assets/post/6.jpeg',
         date: '5 hours ago',
         userId: 6,
@@ -108,7 +108,6 @@ export const Posts = [
     },
     {
         id: 7,
-        descr: 'Love for all, hatred for none',
         photo: 'assets/post/7.jpeg',
         date: '7 hours ago',
         userId: 7,
@@ -117,7 +116,7 @@ export const Posts = [
     },
     {
         id: 8,
-        descr: 'Love for all, hatred for none',
+        descr: 'Only I can change my life',
         photo: 'assets/post/8.jpeg',
         date: '12 hours ago',
         userId: 8,
@@ -126,7 +125,6 @@ export const Posts = [
     },
     {
         id: 9,
-        descr: 'Love for all, hatred for none',
         photo: 'assets/post/9.jpeg',
         date: '14 hours ago',
         userId: 9,
@@ -135,7 +133,7 @@ export const Posts = [
     },
     {
         id: 10,
-        descr: 'Love for all, hatred for none',
+        descr: "No matter how short or long your journey to your accomplishment is, if you don't begin you can't get there. Beginning is difficult, but unavoidable!",
         photo: 'assets/post/10.jpeg',
         date: 'yesterday',
         userId: 10,
