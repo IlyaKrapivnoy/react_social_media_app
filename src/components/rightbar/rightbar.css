@@ -39,37 +39,4 @@
     list-style: none;
 }
 
-.rightbarFriend {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
 
-.rightbarProfileImgContainer {
-    margin-right: 10px;
-    position: relative;
-}
-
-.rightbarProfileImg {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    object-fit: cover;
-}
-
-.rightbarOnline {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: limegreen;
-    position: absolute;
-    top: -2px;
-    right: -3px;
-    border: 2px solid #fff;
-}
-
-.rightbarUsername {
-    font-weight: 500;
-}
